@@ -1,0 +1,19 @@
+p {color:blue; font-size:large; font-weight: bold;}
+
+p strong {font-weight:normal;}
+
+li { text-align:center}
+
+html {font-family: sans-serif; background-color: green;}
+
+span {background-color:beige;}
+
+/* select all html tags that have class highlight_01 */
+.highlight_01{background-color:orange;}
+
+.highlight_02{background-color:plum;}
+
+
+.test-div {background:pink; margin: 30px; padding: 40px;}
+
+.my-flex {display: flex;}
