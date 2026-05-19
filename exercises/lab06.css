@@ -1,43 +1,17 @@
-
-
-
-body {background: rgb(201, 240, 143) ;
-    padding: 50px;}
-h1,
-h2,
-h3 {color: #063118;
-    font-family: cursive;}
-
-img {width: 300px;}
-img {width: 300px;}
-img {width: 300px;}
-
-.top-zone {
-    display: flex;
-    gap: 30px;
-    align-items: flex-start;
-    margin: 0 0 25px 0;
-}
-.top-zone {
-    background: #6c86ce;
-    padding: 20px;
-    border-radius: 12px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
 }
 
-
-
-.main-zone {
-    display: flex;
-    gap: 30px;
-    align-items: flex-start;
-    margin: 0 0 25px 0;
+#scene {
+  min-height: 500px;
+  background: lightyellow;
+  border: 2px solid black;
+  position: relative;
+  overflow: hidden;
 }
-.main-zone {
-    background: #cfa06b;
-    padding: 20px;
-    border-radius: 12px;
 
-#cow {
+#creature {
   width: 120px;
   height: 120px;
   background: pink;
@@ -79,6 +53,4 @@ img {width: 300px;}
 #status {
   font-size: 20px;
   font-weight: bold;
-}
-
 }
